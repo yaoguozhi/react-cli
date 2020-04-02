@@ -1,0 +1,45 @@
+{
+	"name": "web-cli-react",
+	"version": "4.0.0",
+	"author": "chencheng <cheng.chen@tianjishuju.com>",
+	"description": "天机数据React前端模板工程",
+	"main": "src/index",
+	"scripts": {
+		"dev": "node ./scripts/dev.js",
+		"build": "node ./scripts/build.js ~/Desktop/tj_react_web /",
+		"build:alone": "node ./scripts/build.js ~/Desktop/tj_react_web /static/tj_react_web/"
+	},
+	"dependencies": {
+		"antd": "^3.23.6",
+		"axios": "^0.18.0",
+		"classnames": "^2.2.5",
+		"deepmerge": "^2.2.1",
+		"immutability-helper": "^2.5.0",
+		"js-cookie": "^2.2.0",
+		"lodash": "^4.17.4",
+		"mobx": "^5.14.0",
+		"mobx-react": "^6.1.3",
+		"moment": "^2.22.2",
+		"onfire.js": "^1.0.6",
+		"prop-types": "^15.6.0",
+		"query-string": "^5.0.1",
+		"react": "^16.9.0",
+		"react-dom": "^16.9.0",
+		"react-router-dom": "^5.0.1"
+	},
+	"devDependencies": {
+		"core-js": "^3.2.1",
+		"babel-eslint": "^10.0.1",
+		"copy-webpack-plugin": "^4.6.0",
+		"eslint": "^5.16.0",
+		"eslint-config-alloy": "^1.4.2",
+		"eslint-plugin-react": "^7.12.4",
+		"webpack-pipe": "^1.0.16"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://gitee.com/Kuss/React-Template.git"
+	},
+	"license": "ISC",
+	"homepage": "https://gitee.com/Kuss/React-Template"
+}

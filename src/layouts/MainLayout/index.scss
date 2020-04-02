@@ -1,0 +1,27 @@
+@import "theme";
+:global{
+	body{
+		height: 100%;
+		#wrapper{
+			height: 100%;
+		}
+	}
+}
+
+.main-layout {
+	height: 100%;
+
+	//左侧菜单样式
+	.main-content {
+		margin-top: $main-layout-header-height + 24;
+		height: 100%;
+
+		.app-content {
+			//应用区中的header
+			height: 100%;
+			padding: 0 24px 24px 24px;
+		}
+
+	}
+
+}
