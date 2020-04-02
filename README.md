@@ -1,5 +1,5 @@
-# TJ-React-Template
-天机数据前端模板工程
+# React-Template
+React前端模板工程
 
 ## 环境要求
 - node 10+
