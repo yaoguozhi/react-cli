@@ -1,0 +1,9 @@
+*.idea
+.vscode
+.DS_Store
+node_modules
+coverage
+*.log
+dist
+dist.zip
+dist*
